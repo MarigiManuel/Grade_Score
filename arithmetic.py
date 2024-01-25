@@ -3,15 +3,15 @@
 # These functions should compute the result and return them to the function call and should print from outside the function.
 
 def add_numbers(a, b):
-     return a + b
-
+    numbers_added = a + b
+    return numbers_added
 
 def multiply_numbers(a, b):
-     return a * b
-     
+    numbers_multiplied = a * b
+    return numbers_multiplied
 
 a = 10
 b = 6
 
-print(f'Sum is: {add_numbers(a, b)}')
-print(f'Product is: {multiply_numbers(a, b)}')
+print(add_numbers(a, b))
+print(multiply_numbers(a, b))
